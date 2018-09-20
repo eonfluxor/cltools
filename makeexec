@@ -1,0 +1,5 @@
+# !/bin/bash
+echo "making $1 executable +x"
+chmod +x $1
+echo "copy $1 to /usr/local/bin"
+cp $1 /usr/local/bin/$1

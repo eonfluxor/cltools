@@ -1,0 +1,2 @@
+[ -f /etc/hosts ] && echo "Already Initialized" || git init
+curl https://raw.githubusercontent.com/github/gitignore/master/Swift.gitignore >.gitignore
